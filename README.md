@@ -19,7 +19,7 @@ tns plugin add nativescript-intermec-printer
 
 Create Plugin instance
 ```
-let printer = new intermecPrinter();
+let printer = new IntermecPrinter();
 ```
 
 Connect to the printer through: 
@@ -62,7 +62,7 @@ for more information see [the demo](https://github.com/OPADA-Eng/nativescript-in
 | connect(address:string):void | connect to a printer using its address |  address:string ex: "00:13:7B:49:D3:1A" |
 | disconnect():void | disconnect from a printer  |
 | print(text: string): void| print normal text  | text : the text you want to print |
-| printImg(bitmap: globalAndroid.graphics.Bitmap, setExtraPaddingAfterPrint?: boolean, XResol?: number, YResol?: number, startX?: number, startY?: number): void;| print normal bitmap  | bitmap: the image to print, setExtraPaddingAfterPrint: set extra padding after print default true, startX:number specify the position on the paper to start print from on X axis default "0", startY:number specify the position on the paper to start print from on Y axis default "0" |
+| printImg(bitmap: globalAndroid.graphics.Bitmap): void;| print normal bitmap  | bitmap: the image to print|
 | printTextFile(file: any): void; | Print Txt file | File: NS File |
 
     
