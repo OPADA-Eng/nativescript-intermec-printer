@@ -15,6 +15,8 @@ This plugin is now working on `android only`
 tns plugin add nativescript-intermec-printer
 ```
 
+don't forget to add ```tools:replace="android:allowBackup"``` to your AndroidManifest.xml
+
 ## Usage 
 
 Create Plugin instance
