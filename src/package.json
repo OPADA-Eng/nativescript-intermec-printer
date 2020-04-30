@@ -1,6 +1,6 @@
 {
 	"name": "nativescript-intermec-printer",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Plugin for integrating nativescript apps with intermec Pr3 Printer.",
 	"main": "intermecPrinter",
 	"typings": "index.d.ts",
